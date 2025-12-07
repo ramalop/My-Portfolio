@@ -75,6 +75,24 @@ const Navbar = () => {
           </li>
           <li>
             <Link
+              to="/education"
+              className="block"
+              onClick={() => setOpen(false)}
+            >
+              Education
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="/experience"
+              className="block"
+              onClick={() => setOpen(false)}
+            >
+              Experience
+            </Link>
+          </li>
+          <li>
+            <Link
               to="/contact"
               className="block"
               onClick={() => setOpen(false)}
