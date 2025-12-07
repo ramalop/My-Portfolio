@@ -10,7 +10,7 @@ const PortfolioSection = () => {
 
       <div className="flex flex-col items-center gap-12">
         {/* ------------ NewsFlow ------------- */}
-        <div className="card bg-base-100 shadow-xl w-[70%] mx-auto">
+        <div className="card bg-base-100 shadow-xl md:w-[70%] mx-auto">
           <figure>
             <img
               src={NewsFlow}
@@ -41,7 +41,7 @@ const PortfolioSection = () => {
         </div>
 
         {/* ------------ Notes App (MERN) ------------- */}
-        <div className="card bg-base-100 shadow-xl w-[70%] mx-auto">
+        <div className="card bg-base-100 shadow-xl md:w-[70%] mx-auto">
           <figure>
             <img
               src={NotesApp}
@@ -81,7 +81,7 @@ const PortfolioSection = () => {
         </div>
 
         {/* ------------ TextPro ------------- */}
-        <div className="card bg-base-100 shadow-xl w-[70%] mx-auto">
+        <div className="card bg-base-100 shadow-xl md:w-[70%] mx-auto">
           <figure>
             <img
               src={TextPro}
