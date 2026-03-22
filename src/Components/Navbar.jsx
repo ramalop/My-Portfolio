@@ -63,7 +63,7 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       {open && (
-        <ul className="md:hidden flex flex-col gap-4 bg-base-200 text-center py-4 text-lg shadow">
+        <ul className="md:hidden flex flex-col gap-4 bg-base-200 text-center items-center py-4 text-lg shadow">
           <li>
             <Link to="/" className="block" onClick={() => setOpen(false)}>
               Home
@@ -110,7 +110,7 @@ const Navbar = () => {
               Contact
             </Link>
           </li>
-          <li className="flex  items-center gap-2">
+          <li className="gap-2">
             <a
               href="/updatedFrontendDeveloper.docx"
               download
