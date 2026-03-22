@@ -1,5 +1,5 @@
 import React from "react";
-import profilePic from "../assets/profile.jpg";
+import profilePic from "../assets/profilePic.jpeg";
 
 const Home = () => {
   return (
@@ -24,15 +24,22 @@ const Home = () => {
 
         <p className="text-lg text-base-content/80 max-w-2xl mx-auto">
           I’m a passionate{" "}
-          <span className="font-semibold">Full-Stack Developer</span> who loves
-          building scalable applications, clean UI experiences, and
-          high-performance backend systems. I enjoy working across the entire
-          stack—from crafting clean and intuitive front-end interfaces to
-          architecting efficient backend systems with modern tools like React,
-          Node.js, Express, and MongoDB. I’m always exploring new technologies,
-          refining my skills, and working on projects that challenge me to grow
-          as a developer. I love turning ideas into polished digital products
-          that makes an impact.
+          <span className="font-semibold text-primary">Frontend Developer</span>  with a strong foundation in full-stack development,
+          focused on building scalable, high-performance web applications with
+          clean and intuitive user interfaces. I started my career in
+          non-technical roles at Byju’s and Amazon, where I developed strong
+          problem-solving, communication, and analytical skills. Over time, I
+          discovered a strong interest in technology and transitioned into
+          software development through an intensive full-stack bootcamp at
+          Coding Ninjas. Since then, I’ve built multiple real-world projects,
+          including a production-ready MERN e-commerce platform featuring
+          authentication, an admin dashboard, product management,
+          Cloudinary-based image uploads, and PayPal payment integration. I
+          enjoy creating dynamic UIs, optimizing performance, and delivering
+          seamless user experiences. I specialize in HTML, CSS, JavaScript, and
+          React, with hands-on experience in backend technologies like Node.js,
+          Express, and MongoDB. I’m currently seeking opportunities where I can
+          contribute, grow, and build impactful products as a frontend developer.
         </p>
       </div>
     </section>

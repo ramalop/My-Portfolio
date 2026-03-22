@@ -2,6 +2,7 @@ import React from "react";
 import NewsFlow from "../assets/NewsFlow.png";
 import NotesApp from "../assets/Notes_App.png";
 import TextPro from "../assets/TextPro_App.png";
+import Ecommerce from "../assets/E-commerce.png";
 
 const PortfolioSection = () => {
   return (
@@ -9,6 +10,43 @@ const PortfolioSection = () => {
       <h2 className="text-3xl font-bold text-center mb-12">My Projects</h2>
 
       <div className="flex flex-col items-center gap-12">
+        <div className="card bg-base-100 shadow-xl md:w-[70%] mx-auto">
+          <figure>
+            <img
+              src={Ecommerce}
+              alt="NewsFlow"
+              className="w-full h-85 object-cover"
+            />
+          </figure>
+
+          <div className="card-body">
+            <h3 className="card-title text-2xl">E-Commerce App</h3>
+            <p className="text-lg">
+              A full-stack MERN eCommerce application with user shopping flow
+              and admin management features. Built with modern React tooling,
+              Redux Toolkit, and a scalable Node/Express backend.
+            </p>
+
+            <p className="text-sm mt-2 opacity-70">React • API • Bootstrap</p>
+
+            <div className="card-actions mt-4">
+              <a
+                href="https://github.com/ramalop/MERN-ecommerce"
+                target="_blank"
+                className="btn btn-outline"
+              >
+                GitHub
+              </a>
+              <a
+                href="https://mern-ecommerce-1-0ycn.onrender.com"
+                target="_blank"
+                className="btn btn-outline"
+              >
+                Live
+              </a>
+            </div>
+          </div>
+        </div>
         {/* ------------ NewsFlow ------------- */}
         <div className="card bg-base-100 shadow-xl md:w-[70%] mx-auto">
           <figure>
@@ -53,8 +91,10 @@ const PortfolioSection = () => {
           <div className="card-body">
             <h3 className="card-title text-2xl">Notes App (MERN)</h3>
             <p className="text-lg">
-              A full-stack cloud-enabled notes manager with JWT authentication, Email Verification (Please check the spam folder for email Verification),
-              CRUD operations, cloudinary image upload and mobile-first responsive UI.
+              A full-stack cloud-enabled notes manager with JWT authentication,
+              Email Verification (Please check the spam folder for email
+              Verification), CRUD operations, cloudinary image upload and
+              mobile-first responsive UI.
             </p>
 
             <p className="text-sm mt-2 opacity-70">
@@ -62,13 +102,6 @@ const PortfolioSection = () => {
             </p>
 
             <div className="card-actions mt-4">
-              <a
-                href="https://mern-notes-app-hsrd.onrender.com"
-                target="_blank"
-                className="btn btn-primary"
-              >
-                Live Demo
-              </a>
               <a
                 href="https://github.com/ramalop/mern-Notes-App"
                 target="_blank"

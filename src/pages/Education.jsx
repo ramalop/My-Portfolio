@@ -14,6 +14,24 @@ const Education = () => {
 
         {/* Education Cards */}
         <div className="grid gap-8 max-w-3xl mx-auto">
+          {/* Engineering */}
+          <div className="p-6 bg-base-100 rounded-2xl shadow-lg border border-base-300">
+            <h3 className="text-2xl font-semibold text-primary">
+              B.Tech – Electrical & Electronics Engineering (EEE)
+            </h3>
+            <p className="text-lg text-base-content mt-2">
+              Techno India Banipur
+            </p>
+          </div>
+          {/* 12th */}
+          <div className="p-6 bg-base-100 rounded-2xl shadow-lg border border-base-300">
+            <h3 className="text-2xl font-semibold text-primary">
+              12th Standard
+            </h3>
+            <p className="text-lg text-base-content mt-2">
+              Boon School (CBSE)
+            </p>
+          </div>
 
           {/* 10th */}
           <div className="p-6 bg-base-100 rounded-2xl shadow-lg border border-base-300">
@@ -25,33 +43,10 @@ const Education = () => {
             </p>
           </div>
 
-          {/* 12th */}
-          <div className="p-6 bg-base-100 rounded-2xl shadow-lg border border-base-300">
-            <h3 className="text-2xl font-semibold text-primary">
-              12th Standard
-            </h3>
-            <p className="text-lg text-base-content mt-2">
-              Boon School (CBSE)
-            </p>
-          </div>
+          
 
-          {/* Engineering */}
-          <div className="p-6 bg-base-100 rounded-2xl shadow-lg border border-base-300">
-            <h3 className="text-2xl font-semibold text-primary">
-              B.Tech – Electrical & Electronics Engineering (EEE)
-            </h3>
-            <p className="text-lg text-base-content mt-2">
-              Techno India Banipur
-            </p>
-          </div>
-          <div className="p-6 bg-base-100 rounded-2xl shadow-lg border border-base-300">
-            <h3 className="text-2xl font-semibold text-primary">
-              Web Development Training
-            </h3>
-            <p className="text-lg text-base-content mt-2">
-              Coding Ninjas
-            </p>
-          </div>
+          
+          
 
         </div>
       </div>
