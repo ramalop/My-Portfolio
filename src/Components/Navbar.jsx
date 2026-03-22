@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Menu, X } from "lucide-react";
+import { Download, Menu, X } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
@@ -42,6 +42,16 @@ const Navbar = () => {
             <Link to="/contact" className="hover:text-blue-600">
               Contact
             </Link>
+          </li>
+          <li className="flex  items-center gap-2">
+            <a
+              href="/updatedFrontendDeveloper.docx"
+              download
+              className="flex items-center gap-2 hover:text-blue-600"
+            >
+              Resume
+              <Download size={18} />
+            </a>
           </li>
         </ul>
 
